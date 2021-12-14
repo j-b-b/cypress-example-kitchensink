@@ -1,3 +1,4 @@
+# cloned cypress-kitchen-sink-example
 name: Cypress Tests
 
 on: [push]
@@ -8,6 +9,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
